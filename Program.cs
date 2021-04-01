@@ -29,14 +29,15 @@ namespace Soma2Numeros
             Console.ResetColor();
             Console.WriteLine();
 
+            Console.WriteLine("Valor 1");
             valor = Convert.ToInt16 (Console.ReadLine());
-            Console.WriteLine("+");
+            Console.WriteLine("Valor 2");
             valor2 = Convert.ToInt16 (Console.ReadLine());
             Console.WriteLine();
 
             resul = valor + valor2;
 
-            Console.WriteLine($"Soma: {resul}");
+            Console.WriteLine($"---> {valor} + {valor2} = {resul}");
 
 
 
